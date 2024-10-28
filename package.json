@@ -10,10 +10,17 @@
   },
   "devDependencies": {
     "@types/node": "^20.5.7",
+    "@types/pg": "^8.11.10",
+    "drizzle-kit": "^0.26.2",
     "typescript": "^5.2.2",
     "vitest": "^1.5.0"
   },
   "dependencies": {
-    "encore.dev": "^1.41.14"
+    "@neondatabase/serverless": "^0.10.1",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.35.3",
+    "encore.dev": "^1.41.14",
+    "pg": "^8.13.1",
+    "postgres": "^3.4.5"
   }
 }
